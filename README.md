@@ -128,26 +128,44 @@ The program outputs the scheduling details for each test case and the average wa
 ### Input (sjf_input.txt)
 
 P1 0 8 P2 1 4 P3 2 9
+
 P1 0 4 P2 1 3 P3 2 6
 
 ### Output
 
 Process Scheduling Started:
+
 CPU Time 0: [P1 Arrived] P1 [0/0]
+
 Process P1 completed with Turnaround Time: 8, Waiting Time: 0
+
 CPU Time 8: [P2 Arrived] P2 [8/8]
+
 Process P2 completed with Turnaround Time: 12, Waiting Time: 8
+
 CPU Time 12: [P3 Arrived] P3 [12/12]
+
 Process P3 completed with Turnaround Time: 21, Waiting Time: 12
+
 Process Scheduling Completed:
+
 Average Waiting Time: 6.67
 
+
 Process Scheduling Started:
+
 CPU Time 0: [P1 Arrived] P1 [0/0]
+
 Process P1 completed with Turnaround Time: 4, Waiting Time: 0
+
 CPU Time 4: [P2 Arrived] P2 [4/4]
+
 Process P2 completed with Turnaround Time: 7, Waiting Time: 4
+
 CPU Time 7: [P3 Arrived] P3 [7/7]
+
 Process P3 completed with Turnaround Time: 13, Waiting Time: 7
+
 Process Scheduling Completed:
+
 Average Waiting Time: 3.67
